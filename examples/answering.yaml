@@ -1,0 +1,7 @@
+version: 0.1
+input:
+  planet: string
+output:
+  planet: string
+prompt: 'What is the closest planet to {planet}?'
+model: free
