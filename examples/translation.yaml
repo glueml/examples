@@ -1,0 +1,8 @@
+version: 0.1
+input:
+  text: string
+  language: string
+output:
+  text: string
+prompt: 'Tanslate to {language} this text: {text}'
+model: free

@@ -1,0 +1,8 @@
+version: 0.1
+input:
+  text: string
+output:
+  title: string
+  summary: string
+prompt: 'Generate a title and a paragraph for the following text: {text}'
+model: free
