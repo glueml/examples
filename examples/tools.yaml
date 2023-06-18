@@ -1,0 +1,12 @@
+version: 0.1
+input:
+  team: string
+output:
+  first_team_name: string
+  first_team_goals: string
+  second_team_name: string
+  second_team_goals: string
+prompt: 'What was the score of the last game of the team {team}?'
+tools:
+  - web
+model: free
