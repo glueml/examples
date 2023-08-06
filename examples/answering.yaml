@@ -3,5 +3,10 @@ input:
   planet: string
 output:
   planet: string
-prompt: 'What is the closest planet to {planet}?'
+prompt: 'write a weather report for {planet} today'
+connections:
+  - type: web
+  - type: storage
+    provider: s3
+    location: /xxx/yyy
 model: free

@@ -1,0 +1,9 @@
+version: 0.1
+input:
+  year: number
+output:
+  president: string
+prompt: 'Who was the president in {year}?'
+model: free
+data:
+  - http://doc

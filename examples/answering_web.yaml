@@ -1,0 +1,10 @@
+version: 0.1
+input:
+  country: string
+  year: number
+output:
+  president: string
+prompt: 'Who was the president of {country} in {year}?'
+tools:
+  - web
+model: free
